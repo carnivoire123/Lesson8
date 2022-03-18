@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/main_new"
+        android:title="New"
+        android:icon="@drawable/ic_baseline_1x_mobiledata_24"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/main_delete"
+        android:title="Delete"
+        android:icon="@drawable/ic_baseline_10k_24"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/main_quit"
+        android:title="Quit"
+        android:icon="@drawable/ic_baseline_accessibility_24"
+        app:showAsAction="ifRoom"
+        />
+</menu>
